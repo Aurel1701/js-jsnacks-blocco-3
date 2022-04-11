@@ -1,4 +1,4 @@
-const names = ['grogu', 'MANDO', 'Luke', 'sara']
+const names = ['grogu', 'stefano', 'luke', 'sara']
 
 for (let name of names) {
     name = name.charAt(0).toUpperCase() + name.substr(1);
