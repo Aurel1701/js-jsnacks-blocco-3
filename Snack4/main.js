@@ -60,7 +60,7 @@ const users = [
 
 const result_drive = users.filter(users => {
     if (users.eta > 18) {
-        return (`${users.nome}${users.cognome}:può guidare`)
+        return (true)
     }
 })
 console.log(result_drive)
