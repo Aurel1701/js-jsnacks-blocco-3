@@ -6,12 +6,12 @@ const users = [
     {
         nome: 'Luca',
         cognome: 'Colombo',
-        età: '17',
+        eta: '17',
     },
     {
         nome: 'Aurel',
         cognome: 'Tafa',
-        età: '24',
+        eta: '24',
     },
     {
         nome: 'Sara',
@@ -21,37 +21,37 @@ const users = [
     {
         nome: 'Giorgio',
         cognome: 'angiolini',
-        età: '11',
+        eta: '11',
     },
     {
         nome: 'Goku',
         cognome: 'lapomarda',
-        età: '15',
+        eta: '15',
     },
     {
         nome: 'stefano',
         cognome: 'falcone',
-        età: '19',
+        eta: '19',
     },
     {
         nome: 'giorgia',
         cognome: 'mancuso',
-        età: '17',
+        eta: '17',
     },
     {
         nome: 'fabio',
         cognome: 'Pacifici',
-        età: '30',
+        eta: '30',
     },
     {
         nome: 'Lucrezia',
         cognome: 'poli',
-        età: '50',
+        eta: '50',
     },
     {
         nome: 'Marco',
         cognome: 'mosca',
-        età: '14',
+        eta: '14',
     },
 
 
@@ -59,7 +59,7 @@ const users = [
 
 
 const result_drive = users.filter(users => {
-    if (users.età > 18) {
+    if (users.eta > 18) {
         return (`${users.nome}${users.cognome}:può guidare`)
     }
 })
